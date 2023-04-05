@@ -229,12 +229,13 @@ footer {
 .vivoflex {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .iframeflex {
-    padding: 5px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
 }
 
 
@@ -385,16 +386,43 @@ footer {
     .vivoflex{
         flex-direction: column;
     }
+    .botonflex{
+        display: flex;
+        justify-content: center;
+    }
     
 }
 
 @media (max-width: 600px) {
-    /* .iframeflex{
-        width: 15px;
-        height: 10px;
-    } */
+    .iframeflex{
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .vivoflex{
+        display: grid;
+    }
 }
 
+@media (max-width: 480px) {
+    .iframeflex{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        width: 300px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 480px) {
+    .parrnosotros{
+        padding: 0px;
+    }
+    .h1historia{
+        font-size: 30px;
+    }
+}
 
 
 /* todos los colores de background que puse en el responsive me ayudaron visualmente nada mas, lo deo por las dudas para que usted lo pueda ver, despues le voy a sacar los background color y va a quedar con el fondo degrade predeterminado */
