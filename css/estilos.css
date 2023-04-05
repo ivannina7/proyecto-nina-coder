@@ -59,6 +59,7 @@ a:hover {
 .logoflex {
     display: flex;
     justify-content: center;
+    animation: from-right 2s ease;
 }
 
 .logo {
@@ -78,6 +79,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 10px;
+    animation: from-right 2s ease;
 }
 
 h2 {
@@ -86,6 +88,7 @@ h2 {
     margin-bottom: 15px;
     margin-top: 20px;
     color: #DD8B84;
+    animation: from-right 2s ease;
 }
 
 h3 {
@@ -103,6 +106,17 @@ p {
     background-color: #ff847c;
     margin-bottom: 15px;
     color: #832A52
+}
+
+@keyframes from-right{
+    0%{
+        opacity: 0;
+        transform: translate(80px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
 }
 
 /* ------------------section inicio------- */
