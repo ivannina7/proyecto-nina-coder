@@ -54,18 +54,6 @@ a:hover {
   color: #ff847c;
 }
 
-/* ---------------DIV LOGO PRICIP---------- */
-.logoflex {
-  display: flex;
-  justify-content: center;
-  animation: from-right 2s ease;
-}
-
-.logo {
-  width: 115px;
-  height: 115px;
-}
-
 /* -----------------p h1 h2 h3 h4 h5 etc---------- */
 h1 {
   margin-top: 10px;
@@ -105,6 +93,32 @@ p {
   background-color: #ff847c;
   margin-bottom: 15px;
   color: #832A52;
+}
+
+/* -------------footer--------------- */
+footer {
+  background-color: #2a363b;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+}
+
+.footerflex {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+/* ---------------DIV LOGO PRICIP---------- */
+.logoflex {
+  display: flex;
+  justify-content: center;
+  animation: from-right 2s ease;
+}
+
+.logo {
+  width: 115px;
+  height: 115px;
 }
 
 @keyframes from-right {
@@ -157,20 +171,6 @@ p {
   flex-wrap: wrap;
   align-content: flex-end;
   margin-right: 300px;
-}
-
-/* -------------footer--------------- */
-footer {
-  background-color: #2a363b;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-top: 20px;
-}
-
-.footerflex {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
 }
 
 /* -------------------reuniones html---------- */
@@ -400,5 +400,4 @@ footer {
   .h1historia {
     font-size: 30px;
   }
-}
-/* todos los colores de background que puse en el responsive me ayudaron visualmente nada mas, lo deo por las dudas para que usted lo pueda ver, despues le voy a sacar los background color y va a quedar con el fondo degrade predeterminado *//*# sourceMappingURL=sass.css.map */
+}/*# sourceMappingURL=sass.css.map */
